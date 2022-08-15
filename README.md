@@ -4,9 +4,11 @@
 
 ## USAGE
 
+It's a pure golang implement for gorm.io/driver/sqlite. This implement don't need cgo.
+
 ```go
 import (
-  "gorm.io/driver/sqlite"
+  "github.com/zhfreal/sqlite"
   "gorm.io/gorm"
 )
 
