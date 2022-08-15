@@ -4,8 +4,7 @@ go 1.14
 
 require (
 	github.com/jinzhu/now v1.1.5 // indirect
-	github.com/mattn/go-isatty v0.0.14 // indirect
-	golang.org/x/sys v0.0.0-20220811171246-fbc7d0a398ab // indirect
+	github.com/mattn/go-isatty v0.0.16 // indirect
 	golang.org/x/tools v0.1.12 // indirect
 	golang.org/x/xerrors v0.0.0-20220609144429-65e65417b02f // indirect
 	gorm.io/gorm v1.23.8
