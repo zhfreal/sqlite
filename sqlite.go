@@ -30,7 +30,7 @@ func Open(dsn string) gorm.Dialector {
 }
 
 func (dialector Dialector) Name() string {
-	return "sqlite"
+	return "sqlite3"
 }
 
 func (dialector Dialector) Initialize(db *gorm.DB) (err error) {
