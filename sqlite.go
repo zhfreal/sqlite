@@ -26,7 +26,7 @@ type Dialector struct {
 }
 
 func Open(dsn string) gorm.Dialector {
-	return &Dialector{DSN: dsn}
+	return &Dialector{DriverName: DriverName, DSN: dsn}
 }
 
 func (dialector Dialector) Name() string {
